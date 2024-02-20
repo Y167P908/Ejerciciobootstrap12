@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body>
+
+    <h1>Ejercicio1 _ 6011464</h1>
+
+    <button type="button" class="btn btn-primary">Prymary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-link">Link</button>
+
+    <h1>Ejercicio2 _ 6011464</h1>
+
+    <a class="btn btn-primary" href="#" role="button">Link </a>
+    <button class="btn btn-primary" type="submit">Button</button>
+    <input class="btn btn-primary" type="button" value="input" />
+    <input class="btn btn-primary" type="submit" value="submit" />
+    <input class="btn btn-primary" type="reset" value="reset" />
+
+    <h1>Ejercicio3 _ 6011464</h1>
+
+    <button type="button" class="btn btn-primary btn-lg">
+        Large
+        button
+    </button>
+    <button type="button" class="btn btn-primary btn-sm">
+        Small
+        button
+    </button>
+    <button type="button" class="btn btn-primary btn-block">
+        Block
+        button
+    </button>
+
+    <h1>Ejercicio4 _ 6011464</h1>
+
+
+    <div class="container">
+
+        <h2>Dropdowns</h2>
+        <p>La clase.dropdown se usa para indicar un menu desplegable.</p>
+        <p>Use la clase. dropdown-menu para construir el menu desplegable. </p>
+        <p>
+            Para abrir el menu desplegable, use un boton o un enlace con una
+            clase de .dropdown-toggle y data-toggle = "dropdown".
+        </p>
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown button</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Link separado</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <h1>Ejercicio5 _ 6011464</h1>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">Left</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-secondary">Rigth</button>
+
+    </div>
+
+    <h1>Ejercicio6 _ 6011464</h1>
+
+    <div class="btn-toolbar" role="toolbar" aria-label="toolbar with button groups">
+        <br />
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
+            <button type="button" class="btn btn-secondary">3</button>
+            <button type="button" class="btn btn-secondary">4</button>
+        </div>
+        <br />
+        <div class="btn-group mr-2" role="group" aria-label="second group">
+            <button type="button" class="btn btn-secondary">5</button>
+            <button type="button" class="btn btn-secondary">6</button>
+            <button type="button" class="btn btn-secondary">7</button>
+        </div>
+        <br />
+        <div class="btn-group" role="group" aria-label="Thrd group">
+            <button type="button" class="btn btn-secondary">8</button>
+        </div>
+    </div>
+
+    <h1>Ejercicio7 _ 6011464</h1>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+            <div class="dropdown-menu" aria-labelledby="btmGroupDrop1">
+                <a class="dropdown-item" href="#">Dropdown link</a>
+                <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+        </div>
+
+    </div>
+
+    <h1>Ejercicio8 _ 6011464</h1>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmaill">Email addres</label>
+            <input type="email" class="form-control" id="exampleInputEmaill" aria-describedby="emailHelp" placeholder="Enter email" />
+        </div>
+    </form>
+
+
+    <h1>Ejercicio9 _ 6011464</h1>
+
+    <form class="form-inline">
+        <div class="form-group mx-sm-3">
+            <label for=" inputUser" class="form-control" id="inputUser" placeholder="user"></label>
+        </div>
+        <div class="form-group mx-sm-3">
+            <label for="inputPass" class="sr-only">Password</label>
+            <input type="password" class="form-control" id="inputPass" placeholder="Pass" />
+        </div>
+        <button type="submit" class="btn btn-primary" Confirm></button>
+    </form>
+
+    <h1>Ejercicio10 _ 6011464</h1>
+    <form>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-2">Checkbox</div>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" /> Check me out
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </div>
+    </form>
+
+    <h1>Ejercicio11 _ 6011464</h1>
+    <form>
+        <div class="form-group">
+            <label for="validation01">First name</label>
+            <input type="text" class="form-control is-valid" id="validation01" placeholder="First name" value="Mark" required />
+        </div>
+        <div class="form-group">
+            <label for="validation02">city</label>
+            <input type="text" class="form-control is-valid" id="validation02" placeholder="City" required />
+        </div>
+    </form>
+
+    <h1>Ejercicio12 _ 6011464</h1>
+    <div class="input-group">
+        <span class="input-group-addon">@</span>
+        <input type="text" class="form-control" placeholder="Username" />
+    </div>
+    <div class="input-group">
+        <input type="text" class="form-control" />
+        <span class="input-group-addon" .00></span>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">$</span>
+        <input type="text" class="form-control" />
+        <span class="input-group-addon">
+            .00
+        </span>
+    </div>
+
+    <h1>Ejercicio13 _ 6011464</h1>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+    </ul>
+
+    <h1>Ejercicio14 _ 6011464</h1>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabeld</a>
+        </li>
+    </ul>
+
+
+
+    <h1>Ejercicio15 _ 6011464</h1>
+    <ul class="nav nav-pills nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Longer nav link</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+
+    </ul>
+
+    <h1>Ejercicio16 _ 6011464</h1>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another Action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled </a>
+        </li>
+    </ul>
+
+    <h1>Ejercicio17 _ 6011464</h1>
+    <nav class="navbar navbar-expand-ig navbar-ligth bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="navdarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another Action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+
+                    </div>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-contro mr-sm-2" type="search" placeholder="search" aria-label="search" />
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <h1>Ejercicio18 _ 6011464</h1>
+
+    <nav class="navbar navbar-ligth bg-light justify-content-between">
+        <a class="navbar-brand">Navbar</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="search" />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <h1>Ejercicio19 _ 6011464</h1>
+
+    <nav class="navbar fixed-top navbar-ligth bg-light">
+        <a class="navbar-brand" href="#">Fixed top</a>
+    </nav>
+
+    <nav class="navbar fixed-bottom navbar-ligth bg-light">
+        <a class="navbar-brand" href="#">Fixed bottom</a>
+    </nav>
+    <nav class="navbar sticky-top navbar-ligth bg-light">
+        <a class="navbar-brand" href="#">Sticky top</a>
+    </nav>
+
+    <h1>Ejercicio20 _ 6011464</h1>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-ig navbar-ligth bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-expanded="false"aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <d class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                        <span class="sr-only">(Current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                           role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-
+                           expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">something else here</a>
+                        </div>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input  class="form-control mr-sm-2" type="search" placeholder="search"
+                           aria-label="search"/>
+                    <button class="btn btn-outline-success my-2 my-sm-0"
+                            type="submit">Search</button>
+                </form>
+        </nav>
+    </div>
+
+</body>
+</html>
